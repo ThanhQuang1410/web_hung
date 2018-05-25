@@ -1,5 +1,5 @@
 * {
-  font-size: 18px; }
+  font-size: 15px; }
 
 #main {
   position: relative; }
@@ -29,7 +29,8 @@ header {
         cursor: pointer; }
         header .navigation ul li a {
           color: black;
-          padding: 5px 15px 5px 0; }
+          padding: 5px 15px 5px 0;
+          font-weight: bold; }
           header .navigation ul li a:hover {
             text-decoration: none; }
         header .navigation ul li .hvr-underline-from-center::before {
@@ -42,7 +43,9 @@ header {
   text-align: center;
   padding: 30px; }
 .welcome_screen .banner {
-  display: flex; }
+  display: flex;
+  height: 72vh;
+  overflow: hidden; }
   .welcome_screen .banner img {
     width: 100%; }
 
@@ -74,8 +77,11 @@ header {
           margin: 0;
           font-size: 0.6rem; }
 
-.banner_bot img {
-  width: 100%; }
+.banner_bot {
+  height: 50vh;
+  overflow: hidden; }
+  .banner_bot img {
+    width: 100%; }
 
 .coppyright {
   background: black;
@@ -140,12 +146,13 @@ header {
     background: black; }
     .box .side_bar ul {
       list-style: none;
-      margin-top: 200px;
-      padding: 0; }
+      padding: 0;
+      display: flex;
+      flex-direction: column; }
       .box .side_bar ul li {
         color: white;
         font-weight: bold;
-        margin-bottom: 200px;
+        margin-bottom: 10vh;
         cursor: pointer;
         padding: 60px 30px; }
         .box .side_bar ul li:hover {
@@ -211,7 +218,10 @@ header {
       display: block;
       transition: all 0.4s ease-in-out; }
 
-.insert_user, .insert_product, .edit_user, .edit_product {
+.insert_user,
+.insert_product,
+.edit_user,
+.edit_product {
   width: 25%;
   margin: 100px auto;
   display: flex;
@@ -221,7 +231,10 @@ header {
   box-shadow: 1px 1px 10px black;
   border-radius: 10px;
   font-weight: bold; }
-  .insert_user button, .insert_product button, .edit_user button, .edit_product button {
+  .insert_user button,
+  .insert_product button,
+  .edit_user button,
+  .edit_product button {
     margin-top: 10px;
     background: black;
     color: white;
@@ -246,8 +259,7 @@ header {
     overflow: hidden;
     margin: 40px auto; }
     .infor .avt img {
-      width: 150%;
-      transform: translateX(-90px); }
+      width: 100%; }
   .infor p {
     font-weight: bold;
     font-size: 1.7rem; }

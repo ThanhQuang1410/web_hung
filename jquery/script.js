@@ -23,4 +23,13 @@ $(document).ready(function () {
         $('.product_edit').addClass('active');
         $('.user_edit').removeClass('active');
     });
+    
+    
+    $('.list_bottom').owlCarousel({
+        items: 5,
+        autoplay: true,
+        dots: false,
+        nav: false,
+        loop: true,
+    });
 });
