@@ -35,6 +35,13 @@ header {
             text-decoration: none; }
         header .navigation ul li .hvr-underline-from-center::before {
           background: black; }
+    header .navigation .signout {
+      margin-top: 10px;
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-weight: bold; }
 
 .sticky_top {
   position: fixed; }
@@ -143,8 +150,7 @@ header {
   .box .side_bar {
     height: 100vh;
     width: 15vw;
-    background: black;
-    position: fixed; }
+    background: black; }
     .box .side_bar ul {
       list-style: none;
       padding: 0;
