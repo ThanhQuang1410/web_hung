@@ -35,13 +35,15 @@ header {
             text-decoration: none; }
         header .navigation ul li .hvr-underline-from-center::before {
           background: black; }
-    header .navigation .signout {
-      margin-top: 10px;
-      background: none;
-      border: none;
-      outline: none;
-      cursor: pointer;
+    header .navigation .signout, header .navigation form {
       font-weight: bold; }
+      header .navigation .signout input, header .navigation form input {
+        background: none;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        margin-top: 5px;
+        cursor: pointer; }
 
 .sticky_top {
   position: fixed; }

@@ -50,13 +50,16 @@ header {
                 }
             }
         }
-        .signout{
-            margin-top: 10px;
-            background: none;
-            border: none;
-            outline: none;
-            cursor: pointer;
+        .signout,form {
             font-weight: bold;
+            input {
+                background: none;
+                outline: none;
+                border: none;
+                font-weight: bold;
+                margin-top: 5px;
+                cursor: pointer;
+            }
         }
     }
 }
