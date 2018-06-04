@@ -118,7 +118,7 @@ include("connect.php");
                             </div>
                         </div>
                         <div class="about">
-                            <h3><i class="fas fa-briefcase"></i>EDUCATION</h3>
+                            <h3><i class="fas fa-graduation-cap"></i>EDUCATION</h3>
                             <div class="box_about">
                                 <div class="row">
                                     <div class="col-md-1"></div>
@@ -145,7 +145,7 @@ include("connect.php");
                             </div>
                         </div>
                         <div class="about">
-                            <h3><i class="fas fa-briefcase"></i>SKILLS & EXPERTISE</h3>
+                            <h3><i class="fas fa-wrench"></i>SKILLS & EXPERTISE</h3>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="row control">
