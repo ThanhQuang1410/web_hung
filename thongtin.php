@@ -70,46 +70,157 @@ include("connect.php");
             </ul>
         </div>
     </header>
-    <div class="banner_top"></div>
     <div class="infor">
-        <div class="container">
+        <div class="container box_cv">
             <div class="row">
-                <div class="col-md-6">
-                    <h3>OWNER</h3>
-                    <div class="avt">
-                        <img src="images/avt.jpg" alt="">
-                    </div>
-                    <p>TRẦN VĂN HÙNG</p>
-                    <P>B7-DS3</P>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="detail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="col-md-4">
+                    <div class="left">
+                        <div class="avt">
+                            <img src="images/avt.jpg" alt="">
                         </div>
-                        <div class="detail col-md-6">
-                            <i class="fas fa-map-marker"></i>
-                            <p>TP. HẢI PHÒNG</p>
-                        </div>
-                        <div class="detail col-md-6">
-                            <i class="fas fa-envelope"></i>
-                            <p>ONEBLUE2360@GMAIL.COM</p>
-                        </div>
-                        <div class="detail col-md-6">
-                            <i class="fas fa-mobile"></i>
-                            <p>01225122119</p>
-                        </div>
-                        <div class="detail col-md-6">
-                            <i class="fab fa-facebook-square"></i>
-                            <p>TRẦN HÙNG</p>
-                        </div>
+                        <h4>CONTACT</h4>
+                        <P><i class="fas fa-map-marker"></i>TP. HẢI PHÒNG</P>
+                        <p><i class="fas fa-envelope"></i>ONEBLUE2360@GMAIL.COM</p>
+                        <p><i class="fas fa-mobile"></i>01225122119</p>
                     </div>
                 </div>
-            </div>
+                <div class="col-md-8">
+                    <div class="right">
+                        <h1>TRAN VAN HUNG</h1>
+                        <h4>BACK-END DEV</h4>
+                        <div class="about">
+                            <h3><i class="fas fa-briefcase"></i>EXPERIENCES</h3>
+                            <div class="box_about">
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-3">
+                                        <b>2017-2018</b>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <b>VNPT COPR</b>
+                                        <p>INTERN</p>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box_about">
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-3">
+                                        <b>2018-NOW</b>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <b>MAGENEST JSC</b>
+                                        <p>INTERN</p>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <h3><i class="fas fa-briefcase"></i>EDUCATION</h3>
+                            <div class="box_about">
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-3">
+                                        <b>2017-2018</b>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <b>VNPT COPR</b>
+                                        <p>INTERN</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box_about">
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-3">
+                                        <b>2018-NOW</b>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <b>MAGENEST JSC</b>
+                                        <p>INTERN</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <h3><i class="fas fa-briefcase"></i>SKILLS & EXPERTISE</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row control">
+                                        <div class="col-md-5">
+                                            Photoshop
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="box_skill">
+                                                <div class="inside" style="width: 65%"></div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row control">
+                                        <div class="col-md-5">
+                                            English
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="box_skill">
+                                                <div class="inside" style="width: 77%"></div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row control">
+                                        <div class="col-md-5">
+                                            Frontend
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="box_skill">
+                                                <div class="inside" style="width: 75%"></div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row control">
+                                        <div class="col-md-5">
+                                            Backend
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="box_skill">
+                                                <div class="inside" style="width: 98%"></div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row control">
+                                        <div class="col-md-5">
+                                            Teamwork
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="box_skill">
+                                                <div class="inside" style="width: 100%"></div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row control">
+                                        <div class="col-md-5">
+                                            Leadership
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="box_skill">
+                                                <div class="inside" style="width: 95%"></div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
         </div>
     </div>
+    </div>
     <div class="coppyright">
-        <div class="container">Copyrights@2018: TRAN THANH QUANG</div>
+        <div class="container">Copyrights@2018: TRAN VAN HUNG</div>
     </div>
     <div class="pop_up">
         <i class="fas fa-times exit"></i>
