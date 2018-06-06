@@ -36,8 +36,8 @@ session_start();
 </head>
 
 <body>
-    <form action="index.php" method="post" class="signout">
-                    <?php echo "Hello ".$_SESSION['name'] ?><input type="submit" name="signout" value="ĐĂNG XUẤT" />
+    <form action="index.php" method="post" class="signout" style="position: fixed;z-index: 99999;color: white; margin-top: 20px">
+                    <?php echo "Hello ".$_SESSION['name'] ?><input type="submit" name="signout" value="ĐĂNG XUẤT" style="background: #e7e7e7;border: none;border-radius: 5px;padding: 5px 7px;font-weight: bold;font-size: 0.8rem;margin-left: 20px;"/>
                 </form>
     <div class="box">
             

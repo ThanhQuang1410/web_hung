@@ -206,8 +206,10 @@ header {
     .side_bar {
         height: 100vh;
         width: 15vw;
-        background: black;
+        background: #c0d9ff;
+        position: fixed;
         ul {
+            transform: translateY(100px);
             list-style: none;
             padding: 0;
             display: flex;
@@ -226,7 +228,6 @@ header {
         }
     }
     .table_aside {
-        overflow: scroll;
         .user_edit,
         .product_edit {
             display: none;
@@ -250,7 +251,7 @@ header {
                         border: 2px solid #eaeaea;
                         padding: 10px;
                         a {
-                            margin-left: 20px;
+                            margin-left: 10px;
                             color: black;
                             font-weight: bold;
                             text-decoration: none;
@@ -292,14 +293,14 @@ header {
     margin: 100px auto;
     display: flex;
     flex-direction: column;
-    background: #ececec;
+    background: #c0d9ff;
     padding: 20px;
     box-shadow: 1px 1px 10px black;
     border-radius: 10px;
     font-weight: bold;
     button {
         margin-top: 10px;
-        background: black;
+        background: #3183ff;
         color: white;
         font-weight: bold;
         outline: none;
